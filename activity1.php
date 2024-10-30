@@ -51,5 +51,24 @@
                 </fieldset>
         </form>
         
+
+        <?php 
+            if(isset($_REQUEST['checkout'])) {
+                $prices = [
+                    "Coke" => 15,
+                    "Sprite" => 20,
+                    "Royal" => 20,
+                    "Pepsi" => 15,
+                    "Mountain Dew" => 20
+
+
+                ];
+
+                
+
+
+            }
+        
+        ?>
 </body>
 </html>
