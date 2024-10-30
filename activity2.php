@@ -27,7 +27,7 @@
                 $size = $_REQUEST['rngSize'];
             }
 
-            echo '<img src="images/Profile.jpg" width="' . (empty($size) ? '60' : $size) . '%" height="' . (empty($size) ? '60' : $size) . '%" style="border:5px solid ' . (empty($borderColor) ? '#000000' : $borderColor) . ';">';
+            echo '<img src="images/Profile.png" width="' . (empty($size) ? '60' : $size) . '%" height="' . (empty($size) ? '60' : $size) . '%" style="border:5px solid ' . (empty($borderColor) ? '#000000' : $borderColor) . ';">';
 
         ?>
     </form>
