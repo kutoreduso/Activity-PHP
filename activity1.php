@@ -17,21 +17,35 @@
             </label><br>
 
             <label>
-                <input type="checkbox" name="product[]" value="Sprite"> Sprite - P20
+                <input type="checkbox" name="product[]" value="Sprite"> Sprite - ₱20
             </label><br>
             
             <label>
-                <input type="checkbox" name="product[]" value="Royal"> Royal - P20
+                <input type="checkbox" name="product[]" value="Royal"> Royal - ₱20
             </label><br>
 
             <label>
-                <input type="checkbox" name="product[]" value="Pepsi"> Pepsi - P15
+                <input type="checkbox" name="product[]" value="Pepsi"> Pepsi - ₱15
             </label><br>
 
             <label>
-                <input type="checkbox" name="product[]" value="Mountain Dew"> Mountain Dew - P20
+                <input type="checkbox" name="product[]" value="Mountain Dew"> Mountain Dew - ₱20
             </label><br>
 </fieldset>
+       
+
+        <fieldset style= "width: 500px">
+            <legend>Option</legend>
+
+            <label for="Size:"></label>
+            <select name="size" id="size">
+                <option value="Regular">Regular</option>
+                <option value="Up-Size">Up-Size(add ₱5)</option>
+                <option value="Regular">Jumbo (add ₱10)</option>    
+
+
+            </select>
         </form>
+        
 </body>
 </html>
