@@ -42,9 +42,13 @@
                 <option value="Regular">Regular</option>
                 <option value="Up-Size">Up-Size(add ₱5)</option>
                 <option value="Regular">Jumbo (add ₱10)</option>    
+                </select>
 
-
-            </select>
+                <label for="Quantity">Qty</label>
+                <input type="number" id="quantity" name="quantity" min="1" style="width: 140px;">
+                &nbsp;
+                <button type="submit" name="checkout">Checkout</button>
+                </fieldset>
         </form>
         
 </body>
